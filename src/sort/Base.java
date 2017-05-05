@@ -7,7 +7,7 @@ public class Base implements Sort{
 	
 	@Override
 	public void init() {
-		array=new int[10];
+		array=new int[20];
 		Random random=new Random();
 		int te;
 		for(int i=0;i<array.length;i++){
